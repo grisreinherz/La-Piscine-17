@@ -6,8 +6,6 @@ body {
 }
 
 ul {
-	width: 400px;
-	padding: 20px;
 	display: flex;
 	gap: 4vw;
 	scroll-snap-type: x mandatory;
@@ -15,13 +13,11 @@ ul {
 
 li {
   list-style-type: none;
-  padding: 20px;
   flex: 0 0 100%;
 }
 
 ul {
 	overflow-x: scroll;
-	scroll-snap-type: x mandatory;
 }
 
 li {
